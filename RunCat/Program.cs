@@ -93,7 +93,11 @@ namespace RunCat
                 new ToolStripMenuItem("Horse", null, SetRunner)
                 {
                     Checked = runner.Equals("horse")
-                }
+                },
+                new ToolStripMenuItem("HappyCat", null, SetRunner)
+                {
+                    Checked = runner.Equals("happycat")
+                },
             });
 
             themeMenu = new ToolStripMenuItem("Theme", null, new ToolStripMenuItem[]
@@ -218,6 +222,10 @@ namespace RunCat
                 capacity = 10;
             } 
             else if (runner.Equals("horse")) 
+            {
+                capacity = 14;
+            }
+            else if (runner.Equals("happycat"))
             {
                 capacity = 14;
             }
