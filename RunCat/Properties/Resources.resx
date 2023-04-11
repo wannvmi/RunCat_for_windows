@@ -292,6 +292,12 @@
   <data name="light_horse_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\horse\light_horse_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="webwxgetmsgimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webwxgetmsgimg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_happycat_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -586,10 +592,199 @@
   <data name="light_happycat_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="webwxgetmsgimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dark_apple_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="webwxgetmsgimg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dark_apple_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_apple_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\dark_apple_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_banna_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\dark_banna_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_10.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_11.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_popo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\dark_popo_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_0021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\IMG_0021.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_apple_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\apple\light_apple_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_banna_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\banna\light_banna_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_10.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_11.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_popo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo\light_popo_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

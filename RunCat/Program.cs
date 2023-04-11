@@ -86,17 +86,29 @@ namespace RunCat
                 {
                     Checked = runner.Equals("cat")
                 },
-                new ToolStripMenuItem("Parrot", null, SetRunner)
-                {
-                    Checked = runner.Equals("parrot")
-                },
-                new ToolStripMenuItem("Horse", null, SetRunner)
-                {
-                    Checked = runner.Equals("horse")
-                },
+                //new ToolStripMenuItem("Parrot", null, SetRunner)
+                //{
+                //    Checked = runner.Equals("parrot")
+                //},
+                //new ToolStripMenuItem("Horse", null, SetRunner)
+                //{
+                //    Checked = runner.Equals("horse")
+                //},
                 new ToolStripMenuItem("HappyCat", null, SetRunner)
                 {
                     Checked = runner.Equals("happycat")
+                },
+                new ToolStripMenuItem("apple", null, SetRunner)
+                {
+                    Checked = runner.Equals("apple")
+                },
+                new ToolStripMenuItem("banna", null, SetRunner)
+                {
+                    Checked = runner.Equals("banna")
+                },
+                new ToolStripMenuItem("popo", null, SetRunner)
+                {
+                    Checked = runner.Equals("popo")
                 },
             });
 
@@ -228,6 +240,18 @@ namespace RunCat
             else if (runner.Equals("happycat"))
             {
                 capacity = 49;
+            }
+            else if (runner.Equals("apple"))
+            {
+                capacity = 10;
+            }
+            else if (runner.Equals("banna"))
+            {
+                capacity = 8;
+            }
+            else if (runner.Equals("popo"))
+            {
+                capacity = 14;
             }
             List<Icon> list = new List<Icon>(capacity);
             for (int i = 0; i < capacity; i++)
