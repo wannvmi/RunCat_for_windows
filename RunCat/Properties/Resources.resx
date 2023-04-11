@@ -310,14 +310,119 @@
   <data name="dark_happycat_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_happycat_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_14.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_15.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_17.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_18.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_19.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_happycat_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_21.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_22.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_23.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_25.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_26.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_27.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_28.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_29.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark_happycat_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_happycat_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_30.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_31.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_33.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_34.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_35.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_36.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_37.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_38.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_39.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_happycat_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_40.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_41.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_42.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_43.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_44.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_45.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_46.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_47.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_happycat_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\dark_happycat_48.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark_happycat_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\dark_happycat_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,14 +457,119 @@
   <data name="light_happycat_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="light_happycat_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_14.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_15.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_17.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_18.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_19.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_happycat_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_21.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_22.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_23.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_25.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_26.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_27.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_28.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_29.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_happycat_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="light_happycat_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_30.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_31.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_33.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_34.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_35.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_36.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_37.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_38.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_39.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_happycat_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_40.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_41.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_42.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_43.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_44.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_45.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_46.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_47.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_happycat_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\light_happycat_48.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_happycat_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -375,5 +585,11 @@
   </data>
   <data name="light_happycat_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\happycat\light_happycat_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webwxgetmsgimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webwxgetmsgimg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
