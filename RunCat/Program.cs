@@ -94,22 +94,43 @@ namespace RunCat
                 //{
                 //    Checked = runner.Equals("horse")
                 //},
+                new ToolStripMenuItem("popo", null, SetRunner)
+                {
+                    Checked = runner.Equals("popo")
+                },
                 new ToolStripMenuItem("HappyCat", null, SetRunner)
                 {
                     Checked = runner.Equals("happycat")
                 },
-                new ToolStripMenuItem("apple", null, SetRunner)
+                new ToolStripMenuItem("github", null, SetRunner)
                 {
-                    Checked = runner.Equals("apple")
+                    Checked = runner.Equals("github")
+                },
+                new ToolStripMenuItem("diecat", null, SetRunner)
+                {
+                    Checked = runner.Equals("diecat")
+                },
+                new ToolStripMenuItem("dance", null, SetRunner)
+                {
+                    Checked = runner.Equals("dance")
+                },
+                new ToolStripMenuItem("curling", null, SetRunner)
+                {
+                    Checked = runner.Equals("curling")
+                },
+                new ToolStripMenuItem("boxing", null, SetRunner)
+                {
+                    Checked = runner.Equals("boxing")
                 },
                 new ToolStripMenuItem("banna", null, SetRunner)
                 {
                     Checked = runner.Equals("banna")
                 },
-                new ToolStripMenuItem("popo", null, SetRunner)
+                new ToolStripMenuItem("apple", null, SetRunner)
                 {
-                    Checked = runner.Equals("popo")
+                    Checked = runner.Equals("apple")
                 },
+
             });
 
             themeMenu = new ToolStripMenuItem("Theme", null, new ToolStripMenuItem[]
@@ -229,19 +250,40 @@ namespace RunCat
             ResourceManager rm = Resources.ResourceManager;
             // default runner is cat
             int capacity = 5;
-            if (runner.Equals("parrot"))
-            {
-                capacity = 10;
-            } 
-            else if (runner.Equals("horse")) 
-            {
-                capacity = 14;
-            }
-            else if (runner.Equals("happycat"))
+            //if (runner.Equals("parrot"))
+            //{
+            //    capacity = 10;
+            //} 
+            //else if (runner.Equals("horse")) 
+            //{
+            //    capacity = 14;
+            //}
+            
+            if (runner.Equals("happycat"))
             {
                 capacity = 49;
             }
-            else if (runner.Equals("apple"))
+            else if (runner.Equals("popo"))
+            {
+                capacity = 14;
+            }
+            else if (runner.Equals("github"))
+            {
+                capacity = 7;
+            }
+            else if (runner.Equals("diecat"))
+            {
+                capacity = 25;
+            }
+            else if (runner.Equals("dance"))
+            {
+                capacity = 25;
+            }
+            else if (runner.Equals("curling"))
+            {
+                capacity = 6;
+            }
+            else if (runner.Equals("boxing"))
             {
                 capacity = 10;
             }
@@ -249,10 +291,13 @@ namespace RunCat
             {
                 capacity = 8;
             }
-            else if (runner.Equals("popo"))
+
+            else if (runner.Equals("apple"))
             {
-                capacity = 14;
+                capacity = 10;
             }
+
+
             List<Icon> list = new List<Icon>(capacity);
             for (int i = 0; i < capacity; i++)
             {
