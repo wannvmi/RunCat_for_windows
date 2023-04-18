@@ -61,6 +61,16 @@ namespace RunCat.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap boxing {
+            get {
+                object obj = ResourceManager.GetObject("boxing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似于 (图标) 的 System.Drawing.Icon 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Icon dark_apple_0 {
@@ -1887,6 +1897,26 @@ namespace RunCat.Properties {
             get {
                 object obj = ResourceManager.GetObject("dark_popo_9", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap github {
+            get {
+                object obj = ResourceManager.GetObject("github", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap happycat {
+            get {
+                object obj = ResourceManager.GetObject("happycat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -3723,19 +3753,9 @@ namespace RunCat.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap webwxgetmsgimg {
+        internal static System.Drawing.Bitmap popo {
             get {
-                object obj = ResourceManager.GetObject("webwxgetmsgimg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap webwxgetmsgimg1 {
-            get {
-                object obj = ResourceManager.GetObject("webwxgetmsgimg1", resourceCulture);
+                object obj = ResourceManager.GetObject("popo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

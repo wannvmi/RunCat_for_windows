@@ -118,12 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="webwxgetmsgimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="webwxgetmsgimg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\happycat\webwxgetmsgimg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dark_apple_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\apple\dark_apple_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1221,5 +1215,17 @@
   </data>
   <data name="light_popo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\popo\light_popo_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\boxing.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="github" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\github.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happycat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\happycat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\popo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

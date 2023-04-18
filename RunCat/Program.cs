@@ -21,6 +21,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Resources;
 using System.ComponentModel;
+using System.Threading.Tasks;
 
 namespace RunCat
 {
@@ -63,9 +64,8 @@ namespace RunCat
         private string manualTheme = UserSettings.Default.Theme;
         private string speed = UserSettings.Default.Speed;
         private Icon[] icons;
-        private Timer animateTimer = new Timer();
-        private Timer cpuTimer = new Timer();
-
+        private System.Windows.Forms.Timer animateTimer = new System.Windows.Forms.Timer();
+        private System.Windows.Forms.Timer cpuTimer = new System.Windows.Forms.Timer();
 
         public RunCatApplicationContext()
         {
@@ -202,6 +202,7 @@ namespace RunCat
                 Visible = true
             };
 
+            notifyIcon.Click += new EventHandler(HandleClick);
             notifyIcon.DoubleClick += new EventHandler(HandleDoubleClick);
 
             UpdateThemeIcons();
@@ -460,7 +461,38 @@ namespace RunCat
             cpuTimer.Tick += new EventHandler(ObserveCPUTick);
             cpuTimer.Start();
         }
-        
+
+        private async void HandleClick(object Sender, EventArgs e)
+        {
+            ResourceManager rm = Resources.ResourceManager;
+
+            var popupForm = new Form();
+
+            popupForm.Size = new Size(150, 150);
+
+            var pb = new PictureBox();
+            pb.Image = (Image)rm.GetObject("github");
+
+            pb.SizeMode = PictureBoxSizeMode.Zoom;
+
+            popupForm.Controls.Add(pb);
+
+            int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 150;
+            int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
+
+            popupForm.FormBorderStyle = FormBorderStyle.None;
+            popupForm.BackColor = Color.White;
+            popupForm.TransparencyKey = Color.White;
+
+            popupForm.Show();
+            popupForm.Location = new Point(bottomRightX, bottomRightY);
+
+            await Task.Delay(10000);
+
+            popupForm.Close();
+            popupForm = null;
+        }
+
         private void HandleDoubleClick(object Sender, EventArgs e)
         {
             var startInfo = new ProcessStartInfo
