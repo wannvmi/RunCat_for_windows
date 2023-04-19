@@ -22,6 +22,8 @@ using System.Windows.Forms;
 using System.Resources;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using System.Threading;
+using System.Timers;
 
 namespace RunCat
 {
@@ -66,6 +68,7 @@ namespace RunCat
         private Icon[] icons;
         private System.Windows.Forms.Timer animateTimer = new System.Windows.Forms.Timer();
         private System.Windows.Forms.Timer cpuTimer = new System.Windows.Forms.Timer();
+        private System.Timers.Timer drinkTimer = new System.Timers.Timer();
 
         public RunCatApplicationContext()
         {
@@ -209,8 +212,13 @@ namespace RunCat
             SetAnimation();
             SetSpeed();
             StartObserveCPU();
-
             current = 1;
+
+            drinkTimer.Enabled = true;
+            drinkTimer.Interval = 1000;
+            drinkTimer.Start();
+            drinkTimer.Elapsed += new ElapsedEventHandler(DrinkTimedTask);
+
         }
         private void OnApplicationExit(object sender, EventArgs e)
         {
@@ -259,7 +267,7 @@ namespace RunCat
             //{
             //    capacity = 14;
             //}
-            
+
             if (runner.Equals("happycat"))
             {
                 capacity = 49;
@@ -341,9 +349,9 @@ namespace RunCat
             else if (speed.Equals("cpu 20%"))
                 minCPU = 50f;
             else if (speed.Equals("cpu 30%"))
-                minCPU = 33f;    
+                minCPU = 33f;
             else if (speed.Equals("cpu 40%"))
-                minCPU = 25f;   
+                minCPU = 25f;
         }
 
         private void SetSpeedLimit(object sender, EventArgs e)
@@ -408,6 +416,7 @@ namespace RunCat
             cpuUsage.Close();
             animateTimer.Stop();
             cpuTimer.Stop();
+            drinkTimer.Stop();
             notifyIcon.Visible = false;
             Application.Exit();
         }
@@ -428,7 +437,7 @@ namespace RunCat
         private void CPUTickSpeed()
         {
             if (!speed.Equals("default"))
-            {            
+            {
                 float manualInterval = (float)Math.Max(minCPU, interval);
                 animateTimer.Stop();
                 animateTimer.Interval = (int)manualInterval;
@@ -464,33 +473,36 @@ namespace RunCat
 
         private async void HandleClick(object Sender, EventArgs e)
         {
-            ResourceManager rm = Resources.ResourceManager;
+            //ResourceManager rm = Resources.ResourceManager;
 
-            var popupForm = new Form();
+            //var popupForm = new Form();
 
-            popupForm.Size = new Size(150, 150);
+            //popupForm.Size = new Size(150, 150);
 
-            var pb = new PictureBox();
-            pb.Image = (Image)rm.GetObject("github");
+            //var pb = new PictureBox();
+            //pb.Image = (Image)rm.GetObject("github");
 
-            pb.SizeMode = PictureBoxSizeMode.Zoom;
+            //pb.SizeMode = PictureBoxSizeMode.Zoom;
 
-            popupForm.Controls.Add(pb);
+            //popupForm.Controls.Add(pb);
 
-            int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 150;
-            int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
+            //int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 150;
+            //int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
 
-            popupForm.FormBorderStyle = FormBorderStyle.None;
-            popupForm.BackColor = Color.White;
-            popupForm.TransparencyKey = Color.White;
+            //popupForm.FormBorderStyle = FormBorderStyle.None;
+            //popupForm.BackColor = Color.White;
+            //popupForm.TransparencyKey = Color.White;
 
-            popupForm.Show();
-            popupForm.Location = new Point(bottomRightX, bottomRightY);
+            //popupForm.Show();
+            //popupForm.Location = new Point(bottomRightX, bottomRightY);
 
-            await Task.Delay(10000);
+            //await Task.Delay(10000);
 
-            popupForm.Close();
-            popupForm = null;
+            //popupForm.Close();
+            //popupForm = null;
+
+
+
         }
 
         private void HandleDoubleClick(object Sender, EventArgs e)
@@ -503,6 +515,83 @@ namespace RunCat
                 CreateNoWindow = true,
             };
             Process.Start(startInfo);
+        }
+
+        static async void DrinkTimedTask(object sender, ElapsedEventArgs e)
+        {
+            // 得到intHour,intMinute,intSecond，是当前系统时间  
+            int intHour = e.SignalTime.Hour;
+            int intMinute = e.SignalTime.Minute;
+            int intSecond = e.SignalTime.Second;
+
+            if ((intHour == 11 || intHour == 17) && intMinute == 47 && intSecond == 00)
+            {
+                ResourceManager rm = Resources.ResourceManager;
+
+                var popupForm = new Form();
+
+                popupForm.Size = new Size(350, 400);
+
+                var pb = new PictureBox();
+                pb.Image = (Image)rm.GetObject("food");
+                pb.SizeMode = PictureBoxSizeMode.Zoom;
+                pb.Size = new Size(300, 309);
+
+                popupForm.Controls.Add(pb);
+
+                int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 350;
+                int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 400;
+
+                popupForm.FormBorderStyle = FormBorderStyle.None;
+                popupForm.BackColor = Color.White;
+                popupForm.TransparencyKey = Color.White;
+
+                popupForm.Show();
+                popupForm.Location = new Point(bottomRightX, bottomRightY);
+
+                await Task.Delay(100000);
+
+                popupForm.Close();
+                popupForm = null;
+            }
+            else if (intHour > 9 && intHour <= 21 && intMinute == 00 && intSecond == 00)
+            {
+                ResourceManager rm = Resources.ResourceManager;
+
+                var popupForm = new Form();
+
+                popupForm.Size = new Size(150, 150);
+
+                var pb = new PictureBox();
+
+                var images = new List<string>
+                {
+                    "boxing","github","happycat","popo"
+                };
+
+                Random random = new Random();
+                int randomNumber = random.Next(0, images.Count - 1);
+                pb.Image = (Image)rm.GetObject(images[randomNumber]);
+
+                pb.SizeMode = PictureBoxSizeMode.Zoom;
+
+                popupForm.Controls.Add(pb);
+
+                int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 150;
+                int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
+
+                popupForm.FormBorderStyle = FormBorderStyle.None;
+                popupForm.BackColor = Color.White;
+                popupForm.TransparencyKey = Color.White;
+
+                popupForm.Show();
+                popupForm.Location = new Point(bottomRightX, bottomRightY);
+
+                await Task.Delay(10000);
+
+                popupForm.Close();
+                popupForm = null;
+            }
         }
 
     }
