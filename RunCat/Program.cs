@@ -502,7 +502,55 @@ namespace RunCat
             //popupForm = null;
 
 
+            ResourceManager rm = Resources.ResourceManager;
 
+            var popupForm = new Form();
+
+            popupForm.Size = new Size(150, 150);
+
+            var pb = new PictureBox();
+
+            var images = new List<string>
+                {
+                    "boxing","github","happycat","popo"
+                };
+
+            Random random = new Random();
+            int randomNumber = random.Next(0, images.Count - 1);
+            pb.Image = (Image)rm.GetObject(images[randomNumber]);
+
+            pb.SizeMode = PictureBoxSizeMode.Zoom;
+
+            popupForm.Controls.Add(pb);
+
+            var label1 = new System.Windows.Forms.Label();
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.Black;
+            label1.Font = new Font("Microsoft YaHei UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(0, 50);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 0;
+            label1.Text = "该喝水啦";
+
+            popupForm.Controls.Add(label1);
+
+
+            int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 170;
+            int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
+
+            popupForm.FormBorderStyle = FormBorderStyle.None;
+            popupForm.BackColor = Color.White;
+            popupForm.TransparencyKey = Color.White;
+
+            popupForm.Show();
+            popupForm.Location = new Point(bottomRightX, bottomRightY);
+
+            await Task.Delay(10000);
+
+            popupForm.Close();
+            popupForm = null;
         }
 
         private void HandleDoubleClick(object Sender, EventArgs e)
@@ -577,7 +625,21 @@ namespace RunCat
 
                 popupForm.Controls.Add(pb);
 
-                int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 150;
+                var label1 = new System.Windows.Forms.Label();
+                label1.AutoSize = true;
+                label1.BackColor = Color.Transparent;
+                label1.ForeColor = Color.Black;
+                label1.Font = new Font("Microsoft YaHei UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+                label1.Location = new Point(0, 50);
+                label1.Name = "label1";
+                label1.Size = new Size(50, 20);
+                label1.TabIndex = 0;
+                label1.Text = "该喝水啦";
+
+                popupForm.Controls.Add(label1);
+
+
+                int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 170;
                 int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
 
                 popupForm.FormBorderStyle = FormBorderStyle.None;
