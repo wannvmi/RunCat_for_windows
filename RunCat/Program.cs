@@ -68,7 +68,7 @@ namespace RunCat
         private Icon[] icons;
         private System.Windows.Forms.Timer animateTimer = new System.Windows.Forms.Timer();
         private System.Windows.Forms.Timer cpuTimer = new System.Windows.Forms.Timer();
-        private System.Timers.Timer drinkTimer = new System.Timers.Timer();
+        private System.Windows.Forms.Timer drinkTimer = new System.Windows.Forms.Timer();
 
         public RunCatApplicationContext()
         {
@@ -207,6 +207,7 @@ namespace RunCat
 
             //notifyIcon.Click += new EventHandler(HandleClick);
             notifyIcon.DoubleClick += new EventHandler(HandleDoubleClick);
+            notifyIcon.MouseClick += new MouseEventHandler(HandleClick);
 
             UpdateThemeIcons();
             SetAnimation();
@@ -217,7 +218,7 @@ namespace RunCat
             drinkTimer.Enabled = true;
             drinkTimer.Interval = 1000;
             drinkTimer.Start();
-            drinkTimer.Elapsed += new ElapsedEventHandler(DrinkTimedTask);
+            drinkTimer.Tick += new EventHandler(DrinkTimedTask);
 
         }
         private void OnApplicationExit(object sender, EventArgs e)
@@ -564,13 +565,16 @@ namespace RunCat
             };
             Process.Start(startInfo);
         }
-
-        static async void DrinkTimedTask(object sender, ElapsedEventArgs e)
+        
+        private async void DrinkTimedTask(object sender, EventArgs e)
         {
             // 得到intHour,intMinute,intSecond，是当前系统时间  
-            int intHour = e.SignalTime.Hour;
-            int intMinute = e.SignalTime.Minute;
-            int intSecond = e.SignalTime.Second;
+            //int intHour = e.SignalTime.Hour;
+            //int intMinute = e.SignalTime.Minute;
+            //int intSecond = e.SignalTime.Second;
+            int intHour = DateTime.Now.Hour;
+            int intMinute = DateTime.Now.Minute;
+            int intSecond = DateTime.Now.Second;
 
             if ((intHour == 11 || intHour == 17) && intMinute == 47 && intSecond == 00)
             {
@@ -602,7 +606,7 @@ namespace RunCat
                 popupForm.Close();
                 popupForm = null;
             }
-            else if (intHour > 9 && intHour <= 21 && intMinute == 00 && intSecond == 00)
+            else if (intHour > 9 && intHour <= 21 && intMinute == 16 && intSecond == 00)
             {
                 ResourceManager rm = Resources.ResourceManager;
 
