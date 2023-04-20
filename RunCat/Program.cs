@@ -489,6 +489,7 @@ namespace RunCat
             //var popupForm = new Form();
 
             //popupForm.TopMost = true;
+            //popupForm.ShowInTaskbar = false;
             //popupForm.Size = new Size(150, 150);
 
             //var pb = new PictureBox();
@@ -519,6 +520,7 @@ namespace RunCat
             var popupForm = new Form();
 
             popupForm.TopMost = true;
+            popupForm.ShowInTaskbar = false;
             popupForm.Size = new Size(150, 150);
 
             var pb = new PictureBox();
@@ -595,6 +597,7 @@ namespace RunCat
                 var popupForm = new Form();
 
                 popupForm.TopMost = true;
+                popupForm.ShowInTaskbar = false;
                 popupForm.Size = new Size(350, 400);
 
                 var pb = new PictureBox();
@@ -626,6 +629,7 @@ namespace RunCat
                 var popupForm = new Form();
 
                 popupForm.TopMost = true;
+                popupForm.ShowInTaskbar = false;
                 popupForm.Size = new Size(150, 150);
 
                 var pb = new PictureBox();
@@ -682,6 +686,7 @@ namespace RunCat
             var popupForm = new Form();
 
             popupForm.TopMost = true;
+            popupForm.ShowInTaskbar = false;
             popupForm.Size = new Size(150, 150);
 
             var pb = new PictureBox();
