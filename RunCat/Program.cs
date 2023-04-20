@@ -205,7 +205,7 @@ namespace RunCat
                 Visible = true
             };
 
-            notifyIcon.Click += new EventHandler(HandleClick);
+            //notifyIcon.Click += new EventHandler(HandleClick);
             notifyIcon.DoubleClick += new EventHandler(HandleDoubleClick);
 
             UpdateThemeIcons();
