@@ -205,9 +205,10 @@ namespace RunCat
                 Visible = true
             };
 
+#if DEBUG
             //notifyIcon.Click += new EventHandler(HandleClick);
+#endif
             notifyIcon.DoubleClick += new EventHandler(HandleDoubleClick);
-            notifyIcon.MouseClick += new MouseEventHandler(HandleClick);
 
             UpdateThemeIcons();
             SetAnimation();
@@ -272,39 +273,48 @@ namespace RunCat
             if (runner.Equals("happycat"))
             {
                 capacity = 49;
+                ShowGif(runner);
             }
             else if (runner.Equals("popo"))
             {
                 capacity = 14;
+                ShowGif(runner);
             }
             else if (runner.Equals("github"))
             {
                 capacity = 7;
+                ShowGif(runner);
             }
             else if (runner.Equals("diecat"))
             {
                 capacity = 25;
+                ShowGif(runner);
             }
             else if (runner.Equals("dance"))
             {
                 capacity = 25;
+                ShowGif(runner);
             }
             else if (runner.Equals("curling"))
             {
                 capacity = 6;
+                ShowGif(runner);
             }
             else if (runner.Equals("boxing"))
             {
                 capacity = 10;
+                ShowGif(runner);
             }
             else if (runner.Equals("banna"))
             {
                 capacity = 8;
+                ShowGif(runner);
             }
 
             else if (runner.Equals("apple"))
             {
                 capacity = 10;
+                ShowGif(runner);
             }
 
 
@@ -660,5 +670,37 @@ namespace RunCat
             }
         }
 
+
+        private async Task ShowGif(string runnerName)
+        {
+            ResourceManager rm = Resources.ResourceManager;
+
+            var popupForm = new Form();
+
+            popupForm.Size = new Size(150, 150);
+
+            var pb = new PictureBox();
+
+            pb.Image = (Image)rm.GetObject(runnerName);
+            pb.SizeMode = PictureBoxSizeMode.Zoom;
+            pb.Size = new Size(100, 100);
+
+            popupForm.Controls.Add(pb);
+
+            int bottomRightX = Screen.PrimaryScreen.WorkingArea.Right - 170;
+            int bottomRightY = Screen.PrimaryScreen.WorkingArea.Bottom - 150;
+
+            popupForm.FormBorderStyle = FormBorderStyle.None;
+            popupForm.BackColor = Color.White;
+            popupForm.TransparencyKey = Color.White;
+
+            popupForm.Show();
+            popupForm.Location = new Point(bottomRightX, bottomRightY);
+
+            await Task.Delay(5000);
+
+            popupForm.Close();
+            popupForm = null;
+        }
     }
 }

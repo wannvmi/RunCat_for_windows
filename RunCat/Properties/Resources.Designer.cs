@@ -63,9 +63,49 @@ namespace RunCat.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap apple {
+            get {
+                object obj = ResourceManager.GetObject("apple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap banna {
+            get {
+                object obj = ResourceManager.GetObject("banna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap boxing {
             get {
                 object obj = ResourceManager.GetObject("boxing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap curling {
+            get {
+                object obj = ResourceManager.GetObject("curling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap dance {
+            get {
+                object obj = ResourceManager.GetObject("dance", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1897,6 +1937,16 @@ namespace RunCat.Properties {
             get {
                 object obj = ResourceManager.GetObject("dark_popo_9", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap diecat {
+            get {
+                object obj = ResourceManager.GetObject("diecat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
